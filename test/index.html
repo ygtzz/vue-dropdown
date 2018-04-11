@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>vue toast example</title>
+        <meta charset="utf-8">
+        <meta name="hotcss" content="design-width=750">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta content="black" name="apple-mobile-web-app-status-bar-style">
+        <meta content="telephone=no" name="format-detection">
+        <link rel="stylesheet" href="../dist/vue-dropdown.css" />
+        <style>
+             .stage{text-align:center;}
+             .btn-primary{width:200px;height:100px;margin-top:50px;font-size:36px;}
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div class="test stage">
+                <h2>vue-dropdown</h2>
+                <c-dropdown style="display:inline-block" v-model="fontFamily" :text-width="100" :menus="aFontFamily"></c-dropdown>
+            </div>
+        </div>
+        <script src="../node_modules/vue/dist/vue.js"></script>
+        <script src="../dist/vue-dropdown.js"></script>
+        <script type="text/javascript" src="./dist/test.js"></script>
+    </body>
+</html>
