@@ -1,4 +1,4 @@
-## vue-toast
+## vue-dropdown
 a vue dropdwon menu component
 
 ### Install
