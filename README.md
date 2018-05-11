@@ -33,7 +33,7 @@ Vue.component('c-dropdown',dropdown);
 Parameter | Type |Default| Description
 --------- | ---- | ------|-----------
 value | `string` |  | two way binding text show in dropdwon's text area
-meus | `string` |  | the menu's array, a object array,width value and text property
+meus | `string` |  | the menu's array, every item with value and text property
 textWidth | `number` |  | text area width
 type | `string`| `radio` | select mode, radio or checkbox
 selectedClose | `boolean` | `true` | whether to close menu when menu item selected
